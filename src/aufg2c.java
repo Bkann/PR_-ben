@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-		public class aufg2c {
+		public class1 aufg2c {
 
 			public static void main(String[] args) {
 				
@@ -9,7 +9,7 @@ import java.util.Scanner;
 				
 				
 				System.out.print("was wollen sie berechnen:");
-				 String berechnung = input.nextLine();
+				 String input = input.nextLine();
 		        
 		          
 				System.out.print("Name des Patienten: ");
