@@ -26,6 +26,31 @@ import java.util.Scanner;
 			     System.out.printf ("Patient %s hat einen Meld-Score von %.1f." , name, meldScore);
 				
 				
+				
+				String patientName = "Max Mustermann";
+		double Körpergröße = 1.85;
+		double Körpergewicht = 120;
+		
+		
+            double bmi = Körpergewicht / (Körpergröße * Körpergröße);
+		
+		
+	    System.out.printf ("Patient %s hat einen BMI von %.1f.\n", patientName, bmi);
+		
+		
+		if (bmi >= 40) {
+			System.out.print("Der Patient hat Adipositas Typ 3. ");
+		
+		}else if (bmi >= 35) {
+			System.out.print("Der Patient hat Adipositas Typ 2. ");
+		
+		}else if (bmi >= 30) {
+			System.out.print("Der Patient hat Adipositas Typ 1. ");
+			
+		}else {
+			System.out.print("Der Patient hat Normalgewicht. ");
+				
+				
 				input.close();
 			}
 
