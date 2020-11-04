@@ -27,7 +27,11 @@ import java.util.Scanner;
 				
 				
 				
-				String patientName = "Max Mustermann";
+		2222222
+				
+				
+				
+	        String patientName = "Max Mustermann";
 		double Körpergröße = 1.85;
 		double Körpergewicht = 120;
 		
